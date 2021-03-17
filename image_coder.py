@@ -1,8 +1,5 @@
 from PIL import Image, ImageDraw
 from fun_image_coder import _get_fixet_for_str, _convert_str_to_bin, _decoder_bin_to_str
-import time
-import copy
-
 
 class ImageC():
     # Для поддержки кирилицы block_size=12
